@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fantasy Clicker</title>
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
   <style>
     body {
       margin: 0;
@@ -61,13 +63,13 @@
 <body>
   <main>
     <h1>⚔️ Fantasy Clicker</h1>
-    <div id="gold">0 złota</div>
-    <div id="perSec">0 złota/s · 1 za kliknięcie</div>
+    <div id="gold">Ładowanie magii…</div>
+    <div id="perSec"></div>
     <button id="crystal" title="Kliknij kryształ!">💎</button>
     <h2>Sklep</h2>
     <div id="shop"></div>
     <p><button id="reset">Zacznij od nowa</button></p>
   </main>
-  <script src="game.js"></script>
+  <script type="py" src="main.py"></script>
 </body>
 </html>
